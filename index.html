@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+        <link href="./css/css.css" rel="stylesheet">
+        <title>Quadro de atividades</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2 class="text-white"><b>Quadro de atividades</b></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2">
+                    <select id="backgroundColor" class="form-control"></select>
+                    <br>
+                    <br>
+                </div>
+                <div class="col-sm-2">
+                    <button type="button" id="columnCreate"  class="btn btn-xs btn-primary">
+                        <i class="fa fa-plus"></i>
+                        + Adicionar coluna
+                    </button>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <div class="row" id="columns">
+                <br style="clear:both">
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+
+        <script src="./js/Repositories/ColumnRepository.js"></script>
+        <script src="./js/Controllers/ColumnController.js"></script>
+
+        <script src="./js/Repositories/RowRepository.js"></script>
+        <script src="./js/Controllers/RowController.js"></script>
+
+        <script src="./js/Elements/ColumnElement.js"></script>
+        <script src="./js/Elements/RowElement.js"></script>
+
+        <script src="./js/css_colors.js"></script>
+
+        <script src="./js/column.js"></script>
+        <script src="./js/column_create.js"></script>
+        <script src="./js/column_update.js"></script>
+        <script src="./js/column_delete.js"></script>
+
+        <script src="./js/row.js"></script>
+        <script src="./js/row_create.js"></script>
+        <script src="./js/row_update.js"></script>
+        <script src="./js/row_delete.js"></script>
+
+        <script src="./js/js.js"></script>
+    </body>
+</html>
